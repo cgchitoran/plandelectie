@@ -33,7 +33,9 @@ jobs:
           prerelease: false
           args: --bundles msi,nsis
 
-  build-linux:
+  # Pachete native deb/rpm: bază veche = compatibilitate glibc maximă.
+  # Sunt rapide la runtime pentru că folosesc WebKit-ul sistemului.
+  build-linux-native:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
@@ -51,7 +53,7 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci
 
-      - name: Build Tauri app (Linux)
+      - name: Build Tauri app (Linux deb/rpm)
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -60,4 +62,36 @@ jobs:
           releaseName: "plandelectie.ro ${{ github.ref_name }}"
           releaseDraft: false
           prerelease: false
-          args: --bundles deb,rpm,appimage
+          args: --bundles deb,rpm
+
+  # AppImage: bază nouă = WebKitGTK modern bundle-at (cel vechi din 22.04
+  # rula extrem de lent pe sisteme cu stack grafic nou, ex. Wayland + NVIDIA).
+  # AppImage e fallback pentru distros non-deb/rpm, care au de regulă glibc nou.
+  build-linux-appimage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Build Tauri app (Linux AppImage)
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: "plandelectie.ro ${{ github.ref_name }}"
+          releaseDraft: false
+          prerelease: false
+          args: --bundles appimage
