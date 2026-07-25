@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 142 70% 45%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 48 96% 60%;
+    --secondary-foreground: 45 60% 8%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 62%;
+    --accent: 10 85% 60%;
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14%;
+    --input: 0 0% 20%;
+    --ring: 142 70% 45%;
+    --radius: 0.6rem;
+  }
+
+  .high-contrast {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 174 100% 55%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 48 100% 65%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 88%;
+    --accent: 5 100% 65%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 90% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 65%;
+    --input: 0 0% 75%;
+    --ring: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  .avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /** Titlu hero: gradient animat (verde → albastru → mov → roșu → portocaliu → galben) peste text */
+  .hero-title {
+    background-image: linear-gradient(
+      90deg,
+      #22c55e 0%,
+      #3b82f6 20%,
+      #8b5cf6 40%,
+      #ef4444 60%,
+      #f97316 80%,
+      #eab308 90%,
+      #22c55e 100%
+    );
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: hero-gradient 14s linear infinite;
+  }
+
+  .reduced-motion .hero-title {
+    animation: none;
+  }
+}
+
+@keyframes hero-gradient {
+  to {
+    background-position: 300% center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title {
+    animation: none;
+  }
+}
+
+/* Print / PDF friendly styles for the plan preview */
+.pdf-root {
+  background: #ffffff;
+  color: #111827;
+}

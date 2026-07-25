@@ -1,0 +1,1399 @@
+{
+  "areas": [
+    {
+      "id": "limba-comunicare",
+      "nameRo": "Limbă și comunicare",
+      "nameEn": "Language and Communication",
+      "subjects": [
+        {
+          "id": "comunicare-lb-romana",
+          "nameRo": "Comunicare în limba română",
+          "nameEn": "Communication in Romanian",
+          "grades": [
+            0,
+            1,
+            2
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Identificarea sensului unui mesaj oral simplu, accesibil, rostit clar",
+              "descriptionEn": "Identifying the meaning of a simple oral message",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Formularea orală de mesaje simple, accesibile, în diverse contexte de comunicare",
+              "descriptionEn": "Orally formulating simple messages in various communication contexts",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Identificarea unor informații din texte citite în scopuri diverse",
+              "descriptionEn": "Identifying information from texts read for various purposes",
+              "category": "general"
+            },
+            {
+              "code": "CG4",
+              "descriptionRo": "Redactarea unor mesaje simple în contexte de comunicare cotidiane",
+              "descriptionEn": "Writing simple messages in everyday communication contexts",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea sensului unui mesaj oral scurt pe o temă familiară",
+              "descriptionEn": "Identifying the meaning of a short oral message on a familiar topic",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Participarea la dialoguri și conversații simple în situații de comunicare cunoscute",
+              "descriptionEn": "Participating in simple dialogues and conversations",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Citirea corectă, în ritm propriu, a unui text scurt, accesibil",
+              "descriptionEn": "Reading correctly, at own pace, a short accessible text",
+              "category": "specific"
+            },
+            {
+              "code": "4.1",
+              "descriptionRo": "Scrierea lizibilă și corect a unor cuvinte și enunțuri simple după modele date",
+              "descriptionEn": "Writing legibly and correctly simple words and sentences",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "lb-lit-romana",
+          "nameRo": "Limba și literatura română",
+          "nameEn": "Romanian Language and Literature",
+          "grades": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea și interpretarea textelor orale și scrise, literare și nonliterare",
+              "descriptionEn": "Receiving and interpreting oral and written, literary and non-literary texts",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Producerea de mesaje orale și scrise, adecvate scopului și contextului de comunicare",
+              "descriptionEn": "Producing oral and written messages appropriate to purpose and context",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Utilizarea corectă și adecvată a limbii române în diverse situații de comunicare",
+              "descriptionEn": "Using Romanian correctly and appropriately in various communication situations",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea ideilor principale și a detaliilor semnificative dintr-un text",
+              "descriptionEn": "Identifying main ideas and significant details in a text",
+              "category": "specific"
+            },
+            {
+              "code": "1.2",
+              "descriptionRo": "Analizarea elementelor de construcție a textului narativ (personaj, acțiune, timp, spațiu)",
+              "descriptionEn": "Analyzing narrative text construction elements (character, action, time, space)",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Redactarea unor texte narative, descriptive sau argumentative, coerente și corecte",
+              "descriptionEn": "Writing coherent and correct narrative, descriptive or argumentative texts",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Aplicarea normelor ortografice, de punctuație și morfosintactice în producerea de texte",
+              "descriptionEn": "Applying spelling, punctuation and morphosyntactic norms in text production",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "lb-materna",
+          "nameRo": "Limbă și literatură maternă",
+          "nameEn": "Mother Tongue Language and Literature",
+          "grades": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Înțelegerea și interpretarea unor mesaje orale și scrise în limba maternă",
+              "descriptionEn": "Understanding and interpreting oral and written messages in the mother tongue",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Exprimarea orală și scrisă în limba maternă în situații variate de comunicare",
+              "descriptionEn": "Oral and written expression in the mother tongue in varied situations",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea informațiilor esențiale dintr-un text ascultat sau citit",
+              "descriptionEn": "Identifying essential information from a heard or read text",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Redactarea unor texte simple, coerente, în limba maternă",
+              "descriptionEn": "Writing simple, coherent texts in the mother tongue",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "lb-moderna-1",
+          "nameRo": "Limba modernă 1",
+          "nameEn": "Modern Language 1",
+          "grades": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea unor mesaje orale simple în limba modernă studiată",
+              "descriptionEn": "Receiving simple oral messages in the studied modern language",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Producerea unor mesaje orale simple în limba modernă studiată",
+              "descriptionEn": "Producing simple oral messages in the studied modern language",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Recepționarea unor mesaje scrise simple",
+              "descriptionEn": "Receiving simple written messages",
+              "category": "general"
+            },
+            {
+              "code": "CG4",
+              "descriptionRo": "Producerea unor mesaje scrise simple",
+              "descriptionEn": "Producing simple written messages",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea sensului global al unui dialog scurt pe teme familiare",
+              "descriptionEn": "Identifying the global meaning of a short dialogue on familiar topics",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Participarea la conversații simple folosind structuri învățate",
+              "descriptionEn": "Participating in simple conversations using learned structures",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Extragerea unor informații specifice din texte scurte și simple",
+              "descriptionEn": "Extracting specific information from short, simple texts",
+              "category": "specific"
+            },
+            {
+              "code": "4.1",
+              "descriptionRo": "Redactarea unui mesaj scurt simplu (carte poștală, invitație, e-mail simplu)",
+              "descriptionEn": "Writing a short simple message (postcard, invitation, simple email)",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "lb-moderna-2",
+          "nameRo": "Limba modernă 2",
+          "nameEn": "Modern Language 2",
+          "grades": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea de mesaje orale în limba modernă 2",
+              "descriptionEn": "Receiving oral messages in modern language 2",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Producerea de mesaje orale în limba modernă 2",
+              "descriptionEn": "Producing oral messages in modern language 2",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Recepționarea și producerea de mesaje scrise simple",
+              "descriptionEn": "Receiving and producing simple written messages",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea unor informații dintr-un mesaj oral simplu",
+              "descriptionEn": "Identifying information from a simple oral message",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Inițierea și susținerea unei conversații simple pe o temă cunoscută",
+              "descriptionEn": "Initiating and sustaining a simple conversation on a known topic",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "lb-latina",
+          "nameRo": "Limba latină",
+          "nameEn": "Latin Language",
+          "grades": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Identificarea elementelor de morfosintaxă latină în texte simple",
+              "descriptionEn": "Identifying Latin morphosyntactic elements in simple texts",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Valorificarea moștenirii culturale latine în contextul culturii române",
+              "descriptionEn": "Valorizing the Latin cultural heritage in the context of Romanian culture",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Analizarea unor structuri morfologice și sintactice latine de bază",
+              "descriptionEn": "Analyzing basic Latin morphological and syntactic structures",
+              "category": "specific"
+            },
+            {
+              "code": "1.2",
+              "descriptionRo": "Identificarea termenilor de origine latină din limba română și din terminologia științifică",
+              "descriptionEn": "Identifying words of Latin origin in Romanian and scientific terminology",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mate-stiinte",
+      "nameRo": "Matematică și științe ale naturii",
+      "nameEn": "Mathematics and Natural Sciences",
+      "subjects": [
+        {
+          "id": "mat-explorare",
+          "nameRo": "Matematică și explorarea mediului",
+          "nameEn": "Mathematics and Environmental Exploration",
+          "grades": [
+            0,
+            1,
+            2
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Utilizarea numerelor în calcule elementare",
+              "descriptionEn": "Using numbers in elementary calculations",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Evidențierea caracteristicilor formelor, a relațiilor spațiale și a regularităților",
+              "descriptionEn": "Highlighting characteristics of shapes, spatial relations and patterns",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Utilizarea unor mărimi și unități de măsură în situații concrete",
+              "descriptionEn": "Using quantities and measurement units in concrete situations",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Efectuarea de adunări și scăderi în concentrul 0–100, fără și cu trecere peste ordin",
+              "descriptionEn": "Performing additions and subtractions in the 0–100 range",
+              "category": "specific"
+            },
+            {
+              "code": "1.2",
+              "descriptionRo": "Rezolvarea unor probleme simple care presupun o singură operație",
+              "descriptionEn": "Solving simple problems involving a single operation",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Efectuarea de măsurători folosind unități de măsură standard și nestandard",
+              "descriptionEn": "Performing measurements using standard and non-standard units",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "matematica",
+          "nameRo": "Matematică",
+          "nameEn": "Mathematics",
+          "grades": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Identificarea unor date, mărimi și relații matematice, în contextul în care acestea apar",
+              "descriptionEn": "Identifying mathematical data, quantities and relations in context",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Prelucrarea datelor de tip matematic, în vederea rezolvării unor probleme",
+              "descriptionEn": "Processing mathematical data in order to solve problems",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Utilizarea conceptelor și algoritmilor specifici în diverse contexte matematice",
+              "descriptionEn": "Using specific concepts and algorithms in various mathematical contexts",
+              "category": "general"
+            },
+            {
+              "code": "CG4",
+              "descriptionRo": "Exprimarea în limbaj specific matematicii a informațiilor și rezultatelor",
+              "descriptionEn": "Expressing information and results in mathematical language",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Recunoașterea și utilizarea noțiunilor matematice specifice conținutului studiat",
+              "descriptionEn": "Recognizing and using mathematical notions specific to the studied content",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Aplicarea regulilor de calcul în rezolvarea de exerciții și probleme",
+              "descriptionEn": "Applying calculation rules in solving exercises and problems",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Transpunerea unei situații-problemă în limbaj matematic și rezolvarea acesteia",
+              "descriptionEn": "Transposing a problem situation into mathematical language and solving it",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "stiinte-naturii",
+          "nameRo": "Științe ale naturii",
+          "nameEn": "Natural Sciences",
+          "grades": [
+            3,
+            4
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Explorarea mediului prin utilizarea unor instrumente și procedee simple",
+              "descriptionEn": "Exploring the environment using simple tools and procedures",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Înțelegerea unor fenomene și relații din mediul natural",
+              "descriptionEn": "Understanding phenomena and relations in the natural environment",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Observarea și descrierea unor componente ale mediului natural",
+              "descriptionEn": "Observing and describing components of the natural environment",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Realizarea unor investigații simple prin experiment și observație",
+              "descriptionEn": "Carrying out simple investigations through experiment and observation",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "biologie",
+          "nameRo": "Biologie",
+          "nameEn": "Biology",
+          "grades": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea corectă a informațiilor de biologie referitoare la lumea vie",
+              "descriptionEn": "Correctly receiving biological information about the living world",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Explorarea sistemelor biologice folosind metode și instrumente specifice",
+              "descriptionEn": "Exploring biological systems using specific methods and tools",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Utilizarea și construirea unor modele pentru evidențierea principiilor biologice",
+              "descriptionEn": "Using and building models to highlight biological principles",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea și denumirea unor structuri și procese biologice",
+              "descriptionEn": "Identifying and naming biological structures and processes",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Realizarea de investigații practice: observare microscopică, experiment, măsurare",
+              "descriptionEn": "Carrying out practical investigations: microscopic observation, experiment, measurement",
+              "category": "specific"
+            },
+            {
+              "code": "2.2",
+              "descriptionRo": "Interpretarea datelor obținute în urma investigațiilor și formularea de concluzii",
+              "descriptionEn": "Interpreting investigation data and formulating conclusions",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "chimie",
+          "nameRo": "Chimie",
+          "nameEn": "Chemistry",
+          "grades": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea, înțelegerea și explicarea unor fenomene și procese chimice",
+              "descriptionEn": "Receiving, understanding and explaining chemical phenomena and processes",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Investigarea unor fenomene/proprietăți chimice prin experiment",
+              "descriptionEn": "Investigating chemical phenomena/properties through experiment",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Rezolvarea de probleme cu caracter aplicativ folosind concepte chimice",
+              "descriptionEn": "Solving applicative problems using chemical concepts",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Utilizarea corectă a terminologiei, simbolurilor și formulelor chimice",
+              "descriptionEn": "Correctly using chemical terminology, symbols and formulas",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Efectuarea unor activități experimentale respectând normele de protecție a muncii",
+              "descriptionEn": "Performing experimental activities respecting safety norms",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Rezolvarea de exerciții și probleme pe baza ecuațiilor reacțiilor chimice",
+              "descriptionEn": "Solving exercises and problems based on chemical reaction equations",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "fizica",
+          "nameRo": "Fizică",
+          "nameEn": "Physics",
+          "grades": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Recepționarea și înțelegerea unor informații și explicații cu referire la fenomene fizice",
+              "descriptionEn": "Receiving and understanding information about physical phenomena",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Explorarea proprietăților unor fenomene fizice prin experiment și măsurători",
+              "descriptionEn": "Exploring properties of physical phenomena through experiment and measurements",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Aplicarea legilor și principiilor fizicii în rezolvarea de probleme",
+              "descriptionEn": "Applying physics laws and principles in problem solving",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea mărimilor fizice și a unităților de măsură corespunzătoare",
+              "descriptionEn": "Identifying physical quantities and corresponding measurement units",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Efectuarea de măsurători și prelucrarea datelor experimentale",
+              "descriptionEn": "Performing measurements and processing experimental data",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Utilizarea relațiilor matematice în rezolvarea unor probleme cu caracter fizic",
+              "descriptionEn": "Using mathematical relations in solving physics problems",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "om-societate",
+      "nameRo": "Om și societate",
+      "nameEn": "Man and Society",
+      "subjects": [
+        {
+          "id": "istorie",
+          "nameRo": "Istorie",
+          "nameEn": "History",
+          "grades": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Identificarea și utilizarea informațiilor istorice din diverse surse",
+              "descriptionEn": "Identifying and using historical information from various sources",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Localizarea în timp și spațiu a evenimentelor, proceselor și personalităților istorice",
+              "descriptionEn": "Locating historical events, processes and personalities in time and space",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Explicarea unor fapte și procese istorice din perspective diferite",
+              "descriptionEn": "Explaining historical facts and processes from different perspectives",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Selectarea informațiilor relevante din surse istorice variate (text, imagine, hartă)",
+              "descriptionEn": "Selecting relevant information from varied historical sources",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Ordonarea cronologică a evenimentelor și utilizarea reperelelor temporale",
+              "descriptionEn": "Chronologically ordering events and using temporal landmarks",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Formularea unor explicații cauzale privind evenimente istorice",
+              "descriptionEn": "Formulating causal explanations regarding historical events",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "geografie",
+          "nameRo": "Geografie",
+          "nameEn": "Geography",
+          "grades": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Explorarea caracteristicilor unor spații geografice folosind surse variate",
+              "descriptionEn": "Exploring characteristics of geographical spaces using varied sources",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Analizarea relațiilor dintre componentele naturale și umane ale spațiului geografic",
+              "descriptionEn": "Analyzing relations between natural and human components of geographical space",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Interpretarea unor procese și fenomene geografice și a impactului acestora",
+              "descriptionEn": "Interpreting geographical processes and phenomena and their impact",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Citirea și interpretarea hărților și a altor reprezentări geografice",
+              "descriptionEn": "Reading and interpreting maps and other geographical representations",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Identificarea și descrierea unor unități de relief, unități climatice, rețele hidrografice",
+              "descriptionEn": "Identifying and describing relief units, climatic units, hydrographic networks",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Explicarea relației dintre condițiile naturale și activitățile umane într-un spațiu dat",
+              "descriptionEn": "Explaining the relation between natural conditions and human activities in a given space",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "educatie-civica",
+          "nameRo": "Educație civică",
+          "nameEn": "Civic Education",
+          "grades": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Aplicarea valorilor și principiilor morale-civice în viața de zi cu zi",
+              "descriptionEn": "Applying moral-civic values and principles in everyday life",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Cooperarea cu alții în rezolvarea unor situații de viață socială",
+              "descriptionEn": "Cooperating with others in solving social life situations",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea drepturilor și responsabilităților copilului în familie, școală și comunitate",
+              "descriptionEn": "Identifying the child's rights and responsibilities in family, school and community",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Manifestarea unor comportamente de respect și cooperare în relațiile cu ceilalți",
+              "descriptionEn": "Showing respectful and cooperative behaviors in relations with others",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "religie",
+          "nameRo": "Educație religioasă",
+          "nameEn": "Religious Education",
+          "grades": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Cunoașterea unor valori și adevăruri religioase fundamentale",
+              "descriptionEn": "Knowing fundamental religious values and truths",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Aplicarea valorilor religioase și morale în comportamentul cotidian",
+              "descriptionEn": "Applying religious and moral values in everyday behavior",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea unor personaje, evenimente și simboluri religioase",
+              "descriptionEn": "Identifying religious characters, events and symbols",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Reflectarea asupra consecințelor faptelor asupra propriei persoane și a celorlalți",
+              "descriptionEn": "Reflecting on the consequences of deeds on oneself and others",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "filosofie",
+          "nameRo": "Filosofie",
+          "nameEn": "Philosophy",
+          "grades": [
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Utilizarea conceptelor filosofice fundamentale în analiza unor probleme",
+              "descriptionEn": "Using fundamental philosophical concepts in problem analysis",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Argumentarea unei poziții proprii în raport cu perspective filosofice diferite",
+              "descriptionEn": "Arguing one's own position in relation to different philosophical perspectives",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Analizarea unui text filosofic și identificarea argumentelor principale",
+              "descriptionEn": "Analyzing a philosophical text and identifying main arguments",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Construirea unui argument coerent privind o problemă filosofică",
+              "descriptionEn": "Building a coherent argument on a philosophical problem",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "sociologie",
+          "nameRo": "Sociologie",
+          "nameEn": "Sociology",
+          "grades": [
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Cunoașterea unor concepte sociologice fundamentale",
+              "descriptionEn": "Knowing fundamental sociological concepts",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Analizarea unor fenomene sociale cu instrumente sociologice",
+              "descriptionEn": "Analyzing social phenomena with sociological tools",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea instituțiilor sociale și a rolului acestora în societate",
+              "descriptionEn": "Identifying social institutions and their role in society",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Interpretarea unor date simple privind fenomenele sociale",
+              "descriptionEn": "Interpreting simple data on social phenomena",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed-fizica-sport",
+      "nameRo": "Educație fizică, sport și sănătate",
+      "nameEn": "Physical Education, Sport and Health",
+      "subjects": [
+        {
+          "id": "ed-fizica",
+          "nameRo": "Educație fizică și sport",
+          "nameEn": "Physical Education and Sport",
+          "grades": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Practicarea de procedee motrice pentru dezvoltarea calităților motrice",
+              "descriptionEn": "Practicing motor skills for developing motor qualities",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Aplicarea regulilor de igienă și sănătate în activitățile fizice",
+              "descriptionEn": "Applying hygiene and health rules in physical activities",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Respectarea regulilor de fair-play și de siguranță în jocuri și competiții",
+              "descriptionEn": "Respecting fair-play and safety rules in games and competitions",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Executarea corectă a procedeelor motrice învățate (alergări, sărituri, aruncări)",
+              "descriptionEn": "Correctly executing learned motor skills (running, jumping, throwing)",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Participarea la jocuri de mișcare respectând regulile stabilite",
+              "descriptionEn": "Participating in movement games respecting established rules",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Colaborarea cu colegii în cadrul activităților pe echipe",
+              "descriptionEn": "Collaborating with peers in team activities",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arte",
+      "nameRo": "Arte",
+      "nameEn": "Arts",
+      "subjects": [
+        {
+          "id": "muzica-miscare",
+          "nameRo": "Muzică și mișcare",
+          "nameEn": "Music and Movement",
+          "grades": [
+            0,
+            1,
+            2
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Exprimarea liberă și spontană prin cântec și mișcare",
+              "descriptionEn": "Free and spontaneous expression through song and movement",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Recepționarea unor mesaje muzicale diverse",
+              "descriptionEn": "Receiving diverse musical messages",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Intonarea unor cântece simple, individual și în grup",
+              "descriptionEn": "Singing simple songs, individually and in groups",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Realizarea unor mișcări ritmice pe acompaniament muzical",
+              "descriptionEn": "Performing rhythmic movements to musical accompaniment",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "arte-vizuale-abilitati",
+          "nameRo": "Arte vizuale și abilități practice",
+          "nameEn": "Visual Arts and Practical Skills",
+          "grades": [
+            0,
+            1,
+            2
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Explorarea unor tehnici de realizare a unor compoziții vizuale",
+              "descriptionEn": "Exploring techniques for creating visual compositions",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Utilizarea unor elemente de limbaj plastic în exprimarea propriilor idei",
+              "descriptionEn": "Using visual language elements to express own ideas",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Utilizarea culorii, liniei, formei și texturii în lucrări proprii",
+              "descriptionEn": "Using color, line, shape and texture in own works",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Realizarea unor obiecte practice simple folosind tehnici diverse",
+              "descriptionEn": "Creating simple practical objects using various techniques",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "educatie-muzicala",
+          "nameRo": "Educație muzicală",
+          "nameEn": "Music Education",
+          "grades": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Interpretarea vocală și instrumentală a unor lucrări muzicale",
+              "descriptionEn": "Vocal and instrumental interpretation of musical works",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Recepționarea sensibilă a mesajului muzicii de diverse genuri",
+              "descriptionEn": "Sensitive reception of the message of music of various genres",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Intonarea corectă a unor melodii, respectând ritmul și melodia",
+              "descriptionEn": "Correctly singing melodies, respecting rhythm and tune",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Recunoașterea unor elemente de limbaj muzical (tempo, intensitate, timbru)",
+              "descriptionEn": "Recognizing musical language elements (tempo, intensity, timbre)",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "arte-vizuale",
+          "nameRo": "Arte vizuale",
+          "nameEn": "Visual Arts",
+          "grades": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Explorarea caracteristicilor formelor de reprezentare vizuală",
+              "descriptionEn": "Exploring characteristics of visual representation forms",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Exprimarea unor idei, emoții și stări prin mijloace plastice",
+              "descriptionEn": "Expressing ideas, emotions and states through visual means",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Analizarea operelor de artă din perspective diverse",
+              "descriptionEn": "Analyzing artworks from diverse perspectives",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Utilizarea elementelor limbajului vizual în compoziții proprii",
+              "descriptionEn": "Using visual language elements in own compositions",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Experimentarea unor tehnici și materiale plastice variate",
+              "descriptionEn": "Experimenting with varied visual techniques and materials",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Formularea unor aprecieri argumentate asupra unor opere de artă",
+              "descriptionEn": "Formulating argued appreciations on artworks",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tehnologii",
+      "nameRo": "Tehnologii",
+      "nameEn": "Technologies",
+      "subjects": [
+        {
+          "id": "ed-tehnologica",
+          "nameRo": "Educație tehnologică și aplicații practice",
+          "nameEn": "Technological Education and Practical Applications",
+          "grades": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Utilizarea unor produse tehnice simple în viața de zi cu zi",
+              "descriptionEn": "Using simple technical products in everyday life",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Proiectarea și realizarea unor produse simple, funcționale",
+              "descriptionEn": "Designing and creating simple, functional products",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Aplicarea normelor de sănătate și securitate în activitățile practice",
+              "descriptionEn": "Applying health and safety norms in practical activities",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea unor materiale, scule și utilaje și a modului de utilizare a acestora",
+              "descriptionEn": "Identifying materials, tools and equipment and how to use them",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Realizarea unui produs simplu după un plan dat, respectând etapele tehnologice",
+              "descriptionEn": "Creating a simple product following a given plan and technological steps",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "informatica",
+          "nameRo": "Informatică",
+          "nameEn": "Computer Science",
+          "grades": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Utilizarea eficientă și sigură a tehnologiei informației",
+              "descriptionEn": "Efficient and safe use of information technology",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Elaborarea unor produse informatice folosind aplicații specializate",
+              "descriptionEn": "Developing computer products using specialized applications",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Rezolvarea unor probleme prin construirea de algoritmi",
+              "descriptionEn": "Solving problems by building algorithms",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Utilizarea sistemului de operare și a unor aplicații uzuale (editor, calcul tabelar, prezentări)",
+              "descriptionEn": "Using the operating system and common applications (editor, spreadsheet, presentations)",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Crearea și editarea unor documente digitale respectând cerințe date",
+              "descriptionEn": "Creating and editing digital documents according to given requirements",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Descrierea și implementarea unor algoritmi simpli într-un limbaj de programare",
+              "descriptionEn": "Describing and implementing simple algorithms in a programming language",
+              "category": "specific"
+            },
+            {
+              "code": "3.2",
+              "descriptionRo": "Aplicarea regulilor de utilizare responsabilă și sigură a internetului",
+              "descriptionEn": "Applying rules for responsible and safe internet use",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "tic",
+          "nameRo": "TIC",
+          "nameEn": "ICT",
+          "grades": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Utilizarea eficientă și sigură a tehnologiei informației",
+              "descriptionEn": "Efficient and safe use of information technology",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Elaborarea unor produse informatice folosind aplicații specializate",
+              "descriptionEn": "Developing computer products using specialized applications",
+              "category": "general"
+            },
+            {
+              "code": "CG3",
+              "descriptionRo": "Rezolvarea unor probleme prin construirea de algoritmi",
+              "descriptionEn": "Solving problems by building algorithms",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Utilizarea sistemului de operare și a unor aplicații uzuale (editor, calcul tabelar, prezentări)",
+              "descriptionEn": "Using the operating system and common applications (editor, spreadsheet, presentations)",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Crearea și editarea unor documente digitale respectând cerințe date",
+              "descriptionEn": "Creating and editing digital documents according to given requirements",
+              "category": "specific"
+            },
+            {
+              "code": "3.1",
+              "descriptionRo": "Descrierea și implementarea unor algoritmi simpli într-un limbaj de programare",
+              "descriptionEn": "Describing and implementing simple algorithms in a programming language",
+              "category": "specific"
+            },
+            {
+              "code": "3.2",
+              "descriptionRo": "Aplicarea regulilor de utilizare responsabilă și sigură a internetului",
+              "descriptionEn": "Applying rules for responsible and safe internet use",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consiliere-orientare",
+      "nameRo": "Consiliere și orientare",
+      "nameEn": "Counselling and Guidance",
+      "subjects": [
+        {
+          "id": "dezvoltare-personala",
+          "nameRo": "Dezvoltare personală",
+          "nameEn": "Personal Development",
+          "grades": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Manifestarea interesului pentru autocunoaștere și dezvoltarea propriei persoane",
+              "descriptionEn": "Showing interest in self-knowledge and personal development",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Aplicarea unor tehnici de comunicare eficientă în relațiile cu ceilalți",
+              "descriptionEn": "Applying effective communication techniques in relations with others",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea și exprimarea propriilor emoții în mod adecvat",
+              "descriptionEn": "Identifying and appropriately expressing own emotions",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Cooperarea cu ceilalți în activități de grup",
+              "descriptionEn": "Cooperating with others in group activities",
+              "category": "specific"
+            },
+            {
+              "code": "2.2",
+              "descriptionRo": "Aplicarea unor strategii simple de rezolvare a conflictelor",
+              "descriptionEn": "Applying simple conflict resolution strategies",
+              "category": "specific"
+            }
+          ]
+        },
+        {
+          "id": "consiliere-orientare-liceu",
+          "nameRo": "Consiliere și orientare",
+          "nameEn": "Counselling and Career Guidance",
+          "grades": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "competences": [
+            {
+              "code": "CG1",
+              "descriptionRo": "Cunoașterea propriilor resurse personale în vederea dezvoltării carierei",
+              "descriptionEn": "Knowing own personal resources for career development",
+              "category": "general"
+            },
+            {
+              "code": "CG2",
+              "descriptionRo": "Planificarea propriei rute educaționale și profesionale",
+              "descriptionEn": "Planning one's own educational and professional route",
+              "category": "general"
+            },
+            {
+              "code": "1.1",
+              "descriptionRo": "Identificarea propriilor interese, aptitudini și valori legate de carieră",
+              "descriptionEn": "Identifying own career-related interests, aptitudes and values",
+              "category": "specific"
+            },
+            {
+              "code": "2.1",
+              "descriptionRo": "Analizarea unor opțiuni educaționale și profesionale în raport cu profilul personal",
+              "descriptionEn": "Analyzing educational and professional options in relation to personal profile",
+              "category": "specific"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
