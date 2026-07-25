@@ -1,11 +1,13 @@
 {
   "app": {
     "name": "PlanDeLectie",
-    "tagline": "Lesson plans, made simple and beautiful"
+    "tagline": "Lesson plans, made simple and beautiful",
+    "beta": "Beta"
   },
   "nav": {
     "dashboard": "My lesson plans",
     "settings": "Settings",
+    "feedback": "Feedback",
     "newPlan": "New plan",
     "menu": "Main menu",
     "collapse": "Collapse menu",
@@ -255,6 +257,30 @@
     "clearAllTitle": "Delete all data?",
     "clearAllDesc": "All plans, versions and settings will be permanently deleted from this browser.",
     "saved": "Settings saved."
+  },
+  "feedback": {
+    "title": "Feedback",
+    "intro1": "PlanDeLectie grows together with teachers. Your opinion tells us what works, what's missing and what we can do better.",
+    "intro2": "Whether you found a bug, have an idea for a new feature, or just want to tell us how you use the app — every message matters.",
+    "intro3": "We want an app built for teachers' real needs. Your feedback directly shapes the next versions.",
+    "typeLabel": "Message type",
+    "types": {
+      "bug": "Problem / bug",
+      "idea": "Improvement idea",
+      "other": "Something else"
+    },
+    "messageLabel": "Your message",
+    "messagePlaceholder": "Tell us how we can help…",
+    "contactLabel": "Your email (optional)",
+    "contactPlaceholder": "name@example.com",
+    "contactHint": "Only if you'd like us to reply.",
+    "send": "Send feedback",
+    "sendHint": "Your email app will open with the message pre-filled — all that's left is pressing „Send”.",
+    "fallback": "or write to us directly at",
+    "copy": "Copy address",
+    "copied": "Address copied.",
+    "copyError": "Copying failed.",
+    "openError": "Could not open your email app. Please copy the address below."
   },
   "ai": {
     "comingSoon": "AI assistant — coming soon"

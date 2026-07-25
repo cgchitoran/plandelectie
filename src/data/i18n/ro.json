@@ -1,11 +1,13 @@
 {
   "app": {
     "name": "PlanDeLectie",
-    "tagline": "Proiecte didactice, simplu și frumos"
+    "tagline": "Proiecte didactice, simplu și frumos",
+    "beta": "Beta"
   },
   "nav": {
     "dashboard": "Proiectele mele",
     "settings": "Setări",
+    "feedback": "Feedback",
     "newPlan": "Plan nou",
     "menu": "Meniu principal",
     "collapse": "Restrânge meniul",
@@ -255,6 +257,30 @@
     "clearAllTitle": "Ștergi toate datele?",
     "clearAllDesc": "Toate proiectele, versiunile și setările vor fi șterse definitiv din acest browser.",
     "saved": "Setările au fost salvate."
+  },
+  "feedback": {
+    "title": "Feedback",
+    "intro1": "PlanDeLectie se dezvoltă alături de profesori. Părerea ta ne spune ce funcționează, ce lipsește și ce putem face mai bine.",
+    "intro2": "Fie că ai găsit o problemă, ai o idee de funcționalitate nouă sau doar vrei să ne spui cum îți folosești aplicația — fiecare mesaj contează.",
+    "intro3": "Ne dorim o aplicație construită pentru nevoile reale ale profesorilor. Feedbackul tău modelează direct următoarele versiuni.",
+    "typeLabel": "Tipul mesajului",
+    "types": {
+      "bug": "Problemă / bug",
+      "idea": "Idee de îmbunătățire",
+      "other": "Altceva"
+    },
+    "messageLabel": "Mesajul tău",
+    "messagePlaceholder": "Spune-ne cu ce te putem ajuta…",
+    "contactLabel": "Emailul tău (opțional)",
+    "contactPlaceholder": "nume@exemplu.ro",
+    "contactHint": "Doar dacă vrei să îți răspundem.",
+    "send": "Trimite feedback",
+    "sendHint": "Se deschide aplicația ta de email cu mesajul pre-completat — mai ai doar de apăsat „Trimite”.",
+    "fallback": "sau scrie-ne direct la",
+    "copy": "Copiază adresa",
+    "copied": "Adresa a fost copiată.",
+    "copyError": "Copierea a eșuat.",
+    "openError": "Nu am putut deschide aplicația de email. Copiază adresa de mai jos."
   },
   "ai": {
     "comingSoon": "Asistent AI — în curând"
