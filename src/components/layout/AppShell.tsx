@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { LayoutDashboard, PanelLeftClose, PanelLeftOpen, Plus, Settings } from 'lucide-react';
+import { LayoutDashboard, MessageSquareHeart, PanelLeftClose, PanelLeftOpen, Plus, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Logo } from '@/components/brand/Logo';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -109,6 +109,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </NavLink>,
             )}
             {withTip(
+              t('nav.feedback'),
+              <NavLink to="/feedback" className={navLinkClass} aria-label={t('nav.feedback')}>
+                <MessageSquareHeart className="h-4 w-4 shrink-0" />
+                {!collapsed && <span>{t('nav.feedback')}</span>}
+              </NavLink>,
+            )}
+            {withTip(
               t('nav.settings'),
               <NavLink to="/settings" className={navLinkClass} aria-label={t('nav.settings')}>
                 <Settings className="h-4 w-4 shrink-0" />
@@ -117,10 +124,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             )}
           </nav>
 
-          {/* Zona de jos: limbă + comutare lățime */}
+          {/* Zona de jos: versiune + limbă + comutare lățime */}
           <div className={cn('flex flex-col gap-2 border-t p-3', collapsed && 'items-center')}>
             {!collapsed && (
-              <span className="px-1 text-[11px] text-muted-foreground">PlanDeLectie · local-first</span>
+              <span className="flex items-center gap-1.5 px-1 text-[11px] text-muted-foreground">
+                PlanDeLectie v{__APP_VERSION__}
+                {__APP_VERSION__.startsWith('0.') && (
+                  <span className="rounded-full border border-secondary/60 px-1.5 py-px text-[9px] font-semibold uppercase tracking-wide text-secondary">
+                    {t('app.beta')}
+                  </span>
+                )}
+                · local-first
+              </span>
             )}
             {collapsed ? (
               withTip(

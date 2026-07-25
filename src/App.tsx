@@ -8,6 +8,7 @@ import { DashboardPage } from '@/pages/DashboardPage';
 import { EditorPage } from '@/pages/EditorPage';
 import { SettingsPage } from '@/pages/SettingsPage';
 import { LandingPage } from '@/pages/LandingPage';
+import { FeedbackPage } from '@/pages/FeedbackPage';
 import { useSettingsStore } from '@/stores/settings';
 import { usePlansStore } from '@/stores/plans';
 import { useCurriculumStore } from '@/stores/curriculum';
@@ -76,6 +77,7 @@ export default function App() {
             <Route path="/" element={<HomeRoute />} />
             <Route path="/plan/:id/edit" element={<EditorPage />} />
             <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/feedback" element={<FeedbackPage />} />
           </Routes>
         </AppShell>
         <Toaster />
