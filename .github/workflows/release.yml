@@ -64,9 +64,8 @@ jobs:
           prerelease: false
           args: --bundles deb,rpm
 
-  # AppImage: bază nouă = WebKitGTK modern bundle-at (cel vechi din 22.04
-  # rula extrem de lent pe sisteme cu stack grafic nou, ex. Wayland + NVIDIA).
-  # AppImage e fallback pentru distros non-deb/rpm, care au de regulă glibc nou.
+  # AppImage: bază nouă = WebKitGTK modern bundle-at. E fallback pentru
+  # distros non-deb/rpm, care au de regulă glibc nou.
   build-linux-appimage:
     runs-on: ubuntu-latest
     steps:
@@ -85,13 +84,34 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci
 
+      # Nu folosim tauri-action aici: ar urca în release AppImage-ul înainte
+      # de post-procesarea de mai jos.
       - name: Build Tauri app (Linux AppImage)
-        uses: tauri-apps/tauri-action@v0
+        run: npm run tauri:build -- --bundles appimage
+
+      # libwayland trebuie să vină de la sistemul gazdă, ca să se potrivească
+      # cu stack-ul său EGL/Mesa. Varianta bundle-ată rupe accelerarea GPU pe
+      # distros moderne (Mesa 25+) → randare software, UI de nefolosit.
+      # Vezi https://github.com/tauri-apps/tauri/issues/15665
+      - name: Remove bundled Wayland libs and repack AppImage
+        run: |
+          set -euo pipefail
+          APPIMAGE=$(find src-tauri/target/release/bundle/appimage -name '*.AppImage' | head -n1)
+          chmod +x "$APPIMAGE"
+          "$APPIMAGE" --appimage-extract
+          rm -f squashfs-root/usr/lib/libwayland-client.so.0 \
+                squashfs-root/usr/lib/libwayland-cursor.so.0 \
+                squashfs-root/usr/lib/libwayland-egl.so.1 \
+                squashfs-root/usr/lib/libwayland-server.so.0
+          wget -q https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          chmod +x appimagetool-x86_64.AppImage
+          ./appimagetool-x86_64.AppImage --appimage-extract-and-run squashfs-root "$APPIMAGE"
+          rm -rf squashfs-root appimagetool-x86_64.AppImage
+
+      - name: Upload AppImage to GitHub Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tagName: ${{ github.ref_name }}
-          releaseName: "plandelectie.ro ${{ github.ref_name }}"
-          releaseDraft: false
-          prerelease: false
-          args: --bundles appimage
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || \
+            gh release create "$GITHUB_REF_NAME" --title "plandelectie.ro $GITHUB_REF_NAME"
+          gh release upload "$GITHUB_REF_NAME" src-tauri/target/release/bundle/appimage/*.AppImage --clobber
